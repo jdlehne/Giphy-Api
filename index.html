@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Giphy API</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">   
+</head>
+
+<body>
+    <!--Where user inputs own button-->
+    <form id="giphy-form">
+        <label for="giphy-input">Type something </label>
+        <input type="text" id="giphy-input">
+       
+        <!-- Button triggers new giphy button to be added -->
+        <input id="add-giphy" type="submit" value="add giphy">
+        
+    </form>
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <!--gifs dumped here-->
+    <div id="giphy-view"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/app.js"></script>
+</body>
+
+</html>
