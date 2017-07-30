@@ -3,6 +3,8 @@
 
  function displayGiphy() {
 
+    $("#giphy-view").empty();
+
      var giphy = $(this).attr("data-name");
      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + giphy + "&limit=10&api_key=dc6zaTOxFJmzC";
 
@@ -72,9 +74,9 @@
 
      event.preventDefault();
 
-     var giphy = $("#giphy-input").val().trim(); // This line grabs the input from the textbox
+     var giphy = $("#giphy-input").val().trim(); //------ This line grabs the input from the textbox
 
-     giphys.push(giphy); // Adds giphy from the textbox to giphya array
+     giphys.push(giphy); //------ Adds giphy from the textbox to giphya array
 
      renderButtons(); //--------runs the function to add new user created button
 
