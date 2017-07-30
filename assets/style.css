@@ -9,10 +9,17 @@ button, #add-giphy {
 
 }
 
-
 #giphy_input, #add_giphy {
 	float:left;
 	margin-bottom: 10px
+}
+
+#giphy-input{
+	    height: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 20px;
 }
 
 #giphy-view {
@@ -20,12 +27,10 @@ button, #add-giphy {
 	width:100%;
 }
 
-.newGiphy {
-	
+.newGiphy {	
 	float:left;
 	width:33%;
-	height:33%;
-	
+	height:33%;	
 }
 
 img{
@@ -43,6 +48,8 @@ p{
 	height:75%;
 
 }
+
+
 
 /*/--------experimentin-----//
 ul {
