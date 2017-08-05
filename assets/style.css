@@ -26,6 +26,11 @@ button, #add-giphy {
 #giphy-view {
 	overflow:hidden;
 	width:100%;
+
+}
+
+#buttons-view{
+	margin-bottom: 20px
 }
 
 .newGiphy {	
@@ -35,6 +40,8 @@ button, #add-giphy {
 }
 
 img{
+	margin:5px;
+	border-radius: 5px;
 	width:90%;
 	height:auto;
 }	
@@ -46,8 +53,24 @@ label {
 p{
 	font-size: 20px;
 	color:white;
-	width:75%;
-	height:75%;
+	position:absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-shadow: 2px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+.flash {
+   animation-name: flash;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: #3894FF;}
+    to {color: white;}
 }
 
 

@@ -1,4 +1,4 @@
-var giphys = ["duh", "nintendo", "karate", "taco", "asdf", "aw man", "cmon man", "deadpool", "LotR", "transformers", "boo", "grumpy cat", "robot", "give up", "fail", "make it stop", "nut shot", "GoT", ];
+var giphys = ["duh", "nintendo", "karate", "taco", "asdf", "aw man", "cmon man", "deadpool", "LotR", "transformers", "boo", "grumpy cat", "lovecraft", "robot", "give up", "fail", "make it stop", "nut shot", "GoT", "nasa", "whoops" ];
 
 function displayGiphy() {
 
